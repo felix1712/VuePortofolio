@@ -1,0 +1,63 @@
+.navbar{
+	display: flex;
+	align-item: stretch;
+	padding: 1rem 0;
+
+	&.navbar-transparent{
+		background: transparent;
+	}
+
+	.container{
+		display: flex;
+		align-items: stretch;
+		min-height: 3rem;
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+
+		@media ($standard-screen){
+			max-width: 1266px;
+    	width: 1266px;
+		}
+
+		@media ($fullhd-screen){
+			max-width: 1340px;
+    	width: 1340px;
+		}
+
+		.navbar-logo{
+			display: flex;
+			align-items: center;
+			padding: 2rem 0.5rem;
+
+			 .logo{
+				a{
+					display: flex;
+					align-items:center;
+					img{
+						height: auto;
+						max-height: 2.5rem;
+						max-width: 100%;
+					}
+				}
+			}
+		}
+
+		.navbar-menu{
+			display: flex;
+			flex-grow: 1;
+			align-items: stretch;
+
+			.navbar-right{
+		    display: flex;
+				justify-content: flex-end;
+		    margin-left: auto;
+
+		    .navbar-item{
+		    	display: flex;
+		    	padding: 2rem 0.5rem;	
+		    }
+			}
+		}
+	}
+}

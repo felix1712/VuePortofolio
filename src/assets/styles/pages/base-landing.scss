@@ -1,0 +1,123 @@
+// style for base landing
+.base-landing{
+	height: 100vh;
+	background: #E6ECED;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 44% 100%, 0 80%);
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 44% 100%, 0 80%);
+
+	.landing-content{
+		display: flex;  
+	  flex-flow: row wrap;
+
+	  .landing-content-column{
+	  	width: auto;
+	  	max-width:100%;
+
+	  	.landing-content-item{
+	  		padding: 2rem 0 0 15rem;
+	  		h1{
+		  		margin:0;
+		  		font-weight: 300;
+		  		display: block;
+	  			&.landing-name{
+		  			color: $heading;
+		  			font-size: 6.5rem;
+		  			margin-left: -0.5rem;
+	  			}
+
+	  			&.landing-title{
+		  			color: $sub-heading;
+		  			font-size: 40px;
+	  			}
+	  		}
+	  		p{
+	  			margin: 0;
+	  			font-size: 1.2rem;
+	  			font-weight: 300;
+	  			&.landing-noun{
+	  				font-weight: 600;
+	  			}
+	  			&.landing-intro{
+	  				margin-top: 1.5rem;
+		  			width: auto;
+		  			max-width: 27rem;
+		  			color: $text;
+	  			}
+	  		}
+
+	  		.landing-my-works{
+	  			margin-top: 5rem;
+	  		}
+	  	}
+	  }
+	}
+
+	.landing-arrow{
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 7rem;
+
+  	.landing-arrow-item{
+	  	background:transparent;
+		  height: 2.8em;
+		  width: 2.8em;
+		  display:block;
+		  padding: 0.5em;
+		  margin: 1em auto;
+		  position: relative;
+		  cursor: pointer;
+		  border-radius: 4px;
+
+		  &:hover{
+		  }
+
+		  .left-bar {
+			  position: absolute;
+			  background-color: transparent;
+			  top: 0;
+			  left:0;
+			  width: 40px;
+			  height: 5px;
+			  display: block;
+			  transform: rotate(35deg);
+			  float: right;
+			  border-radius: 2px;
+			  &:after {
+			    content:"";
+			    background-color: $blue-primary;
+			    width: 40px;
+			    height: 5px;
+			    display: block;
+			    float: right;
+			    border-radius: 6px 10px 10px 6px;
+			    transition: all 0.5s;
+			    z-index: -1;
+			  }
+			}
+
+			.right-bar {
+			  position: absolute;
+			  background-color: transparent;
+			  top: 0px;
+			  left:29px;
+			  width: 40px;
+			  height: 5px;
+			  display: block;
+			  transform: rotate(-35deg);
+			  float: right;
+			  border-radius: 2px;
+			  &:after {
+			    content:"";
+			    background-color: $blue-primary;
+			    width: 40px;
+			    height: 5px;
+			    display: block;
+			    float: right;
+			    border-radius: 10px 6px 6px 20px;
+			    transition: all 0.5s;
+			    z-index: -1;
+			  }
+			}
+	  }
+  }
+}

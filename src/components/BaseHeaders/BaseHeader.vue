@@ -1,13 +1,13 @@
 <template src="./index.html"></template>
 
 <script>
-	import BaseHeader from '@/components/BaseHeaders/BaseHeader.vue';
+	import HeaderLogo from '@/components/HeaderLogos/HeaderLogo.vue';
 	import BaseButton from '@/components/BaseButtons/BaseButton.vue';
 
-	export default{
-		name: 'BaseLanding',
+	export default {
+		name: 'BaseHeader',
 		components: {
-			BaseHeader,
+			HeaderLogo,
 			BaseButton,
 		},
 	};

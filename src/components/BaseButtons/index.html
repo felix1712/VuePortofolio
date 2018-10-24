@@ -1,0 +1,14 @@
+<a
+  :class="[
+    'custom-button',
+    {
+      'button-default': buttonClass == 'default',
+      'button-secondary': buttonClass == 'secondary',
+      'button-rounded': buttonType == 'circle'
+    }
+  ]"
+>
+  <span>
+    <slot />
+  </span>
+</a>
