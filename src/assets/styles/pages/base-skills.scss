@@ -1,0 +1,53 @@
+.base-skill{
+
+	.skill-frame{
+		display: flex;
+		justify-content: center;
+
+		.skill-item{
+			display: flex;
+			flex-direction: row;
+			@media ($standard-screen){
+				max-width: 1166px;
+	    	width: 1206px;
+			}
+
+			@media ($fullhd-screen){
+				max-width: 1240px;
+	    	width: 1280px;
+			}
+
+			.skill-data{
+				flex: 1 1 auto;
+				margin: 1.5rem;
+				padding: 2.5rem;
+				border: 2px solid $blue-border;
+				text-align: center;
+
+				h5{
+					color: $sub-heading;
+					font-size: 1.4rem;
+					font-weight: 400;
+					margin: 2rem 0 1rem 0;
+				}
+
+				p{
+					color: $text;
+					font-size: 1.2rem;
+					font-weight: 300;
+					margin: 0;
+				}
+
+				.skill-data-intro{
+					h4{
+						color: $heading;
+						font-size: 1.5rem;
+						font-weight: 400;
+						margin: 2rem 0 1rem 0;
+					}
+				}
+			}
+		}
+	}
+
+}

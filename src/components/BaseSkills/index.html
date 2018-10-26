@@ -1,0 +1,35 @@
+<div class="base-skill">
+	<content-heading>
+		<template slot="heading">
+			{{dataSkills.skill_heading}}
+		</template>
+
+		<template slot="sub-heading">
+			{{dataSkills.skill_sub_heading}}
+		</template>
+	</content-heading>
+
+	<div class="skill-frame">
+		<div class="skill-item">
+			<div class="skill-data" v-for="data in dataSkills.skill_content">
+				<div class="skill-data-image">
+					<img src="@/assets/images/skills/front-end-dev.png" />
+				</div>
+				<div class="skill-data-intro">
+					<h4>{{data.name}}</h4>
+					<p>{{data.description}}</p>
+				</div>
+				<div class="skill-data-language">
+					<h5>{{data.language_heading}}</h5>
+					<p>{{data.language_content}}</p>
+				</div>
+				<div class="skill-data-tools">
+					<h5>{{data.tool_heading}}</h5>
+					<div class="skill-data-tool-item" v-for="item in data.tool_content">
+						<p>{{item}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

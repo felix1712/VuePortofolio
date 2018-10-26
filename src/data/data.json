@@ -9,40 +9,38 @@
 		"about_sub_heading": "I build something with effort and passion .",
 		"about_content": "Hello I’m Felix Andrean a Front-end developer, my first journey become a developer start at 2010, is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
 	},
-	"skill": {
+	"skills": {
 		"skill_heading": "What i can do ?",
 		"skill_sub_heading": "I can help you with some skills i have",
-		"skill_content": {
-			"skills_items": [
-				{
-					"image_url": "@/components/assets/images/skills/front-end-dev",
-					"name": "Front-end Developer",
-					"description": "Writing HTML, CSS and JS code from scratch into wonderful web pages and magic animations",
-					"language_heading": "Language i used :",
-					"language_content": "HTML5, Pug, Slim, Sass, Vanilla, JQuery",
-					"tool_heading": "What tool or library i used :",
-					"tool_content": ["Bootstrap","Bulma", "Semantic UI", "Github", "Bitbucket", "Sublime Text 3", "Terminal"]
-				},
-				{
-					"image_url": "@/components/assets/images/skills/front-end-engin",
-					"name": "Front-end Enginner",
-					"description": "Building user interface with modern framework so user interface will be stand alone",
-					"language_heading": "Language i used :",
-					"language_content": "AngularJS, Angular, Vue Js, React Js, Rails",
-					"tool_heading": "What tool or library i used :",
-					"tool_content": ["ES5","ES6", "Babel", "Typescript", "ESLint + Airbnb", "RxJs", "Vuex"]
-				},
-				{
-					"image_url": "@/components/assets/images/skills/front-end-dev",
-					"name": "Front-end Developer",
-					"description": "Writing HTML, CSS and JS code from scratch into wonderful web pages and magic animations",
-					"language_heading": "Language i used :",
-					"language_content": "HTML5, Pug, Slim, Sass, Vanilla, JQuery",
-					"tool_heading": "What tool or library i used :",
-					"tool_content": ["Bootstrap","Bulma", "Semantic UI", "Github", "Bitbucket", "Sublime Text 3", "Terminal"]
-				}
-			]
-		}
+		"skill_content":[
+			{
+				"image_url": "../assets/images/skills/front-end-dev.png",
+				"name": "Front-end Developer",
+				"description": "Writing HTML, CSS and JS code from scratch into wonderful web pages and magic animations",
+				"language_heading": "Language i used :",
+				"language_content": "HTML5, Pug, Slim, Sass, Vanilla, JQuery",
+				"tool_heading": "What tool or library i used :",
+				"tool_content": ["Bootstrap","Bulma", "Semantic UI", "Github", "Bitbucket", "Sublime Text 3", "Terminal"]
+			},
+			{
+				"image_url": "../assets/images/skills/front-end-engin.png",
+				"name": "Front-end Enginner",
+				"description": "Building user interface with modern framework so user interface will be stand alone",
+				"language_heading": "Language i used :",
+				"language_content": "AngularJS, Angular, Vue Js, React Js, Rails",
+				"tool_heading": "What tool or library i used :",
+				"tool_content": ["ES5","ES6", "Babel", "Typescript", "ESLint + Airbnb", "RxJs", "Vuex"]
+			},
+			{
+				"image_url": "../assets/images/skills/front-end-dev.png",
+				"name": "Front-end Developer",
+				"description": "Writing HTML, CSS and JS code from scratch into wonderful web pages and magic animations",
+				"language_heading": "Language i used :",
+				"language_content": "HTML5, Pug, Slim, Sass, Vanilla, JQuery",
+				"tool_heading": "What tool or library i used :",
+				"tool_content": ["Bootstrap","Bulma", "Semantic UI", "Github", "Bitbucket", "Sublime Text 3", "Terminal"]
+			}
+		]
 	},
 	"form": {
 		"form_heading": "Interested to me ?",
