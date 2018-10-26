@@ -2,8 +2,9 @@
 .base-landing{
 	height: 100vh;
 	background: #E6ECED;
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 44% 100%, 0 80%);
-	clip-path: polygon(0 0, 100% 0, 100% 75%, 44% 100%, 0 80%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 31% 100%, 0 80%);
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 31% 100%, 0 80%);
+	margin-bottom: 5rem;
 
 	.landing-content{
 		display: flex;  
