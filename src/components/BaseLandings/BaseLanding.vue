@@ -10,5 +10,8 @@
 			BaseHeader,
 			BaseButton,
 		},
+		props: {
+			dataLanding: Object,
+		},
 	};
 </script>

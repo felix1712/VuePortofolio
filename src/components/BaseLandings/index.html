@@ -4,16 +4,16 @@
   <div class="landing-content">
     <div class="landing-content-column">
       <div class="landing-content-item">
-        <h1 class="landing-name">Felix Andrean</h1>
-        <h1 class="landing-title">Front-end Developer</h1>
-        <p class="landing-noun">/ˈfrʌnt end/</p>
+        <h1 class="landing-name">{{dataLanding.name}}</h1>
+        <h1 class="landing-title">{{dataLanding.title}}</h1>
+        <p class="landing-noun">{{dataLanding.title_noun}}</p>
         <p class="landing-intro">
-          Building of webpages and user interfaces for web application also implement the structure, design, behavior, and animation of everything you see on the screen when you open up websites or web applications.
+          {{dataLanding.title_mean}}
         </p>
 
         <div class="landing-my-works">
           <BaseButton buttonClass="default">
-            See more my profile
+            {{dataLanding.button_my_profile}}
           </BaseButton>
         </div>
       </div>
