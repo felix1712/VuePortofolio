@@ -1,0 +1,31 @@
+//style for content heading
+.heading-frame{
+	display:flex;
+	justify-content: center;
+
+	.heading-item{
+		text-align: center;
+		@media ($standard-screen){
+			max-width: 1266px;
+    	width: 1266px;
+		}
+
+		@media ($fullhd-screen){
+			max-width: 1340px;
+    	width: 1340px;
+		}
+
+		.content-heading{
+			margin: 0;
+		}
+
+		hr{
+			max-width: 12rem;
+			border: 2px solid $blue-border;
+		}
+
+		.content-sub-heading{
+			margin: 0;
+		}
+	}
+}

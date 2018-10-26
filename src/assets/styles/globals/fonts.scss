@@ -1,0 +1,20 @@
+//content heading section
+.heading-frame{
+	.content-heading{
+		color: $heading;
+		font-size: 3.6rem;
+		font-weight: 400;
+	}
+
+	.content-sub-heading{
+		color: $sub-heading;
+		font-size: 1.6rem;
+		font-weight: 300;
+	}
+}
+
+p{
+	font-size: 1.35rem;
+	font-weight: 400;
+	color: $text;
+}
