@@ -1,0 +1,23 @@
+.base-about{
+	.about-frame{
+		display: flex;
+		justify-content: center;
+		padding: 2.3rem 0;
+
+		.about-rocket{
+			display: inline;
+			position:absolute;
+			left: -1.5rem;
+		}
+
+		.about-item{
+			width: 45%;
+
+			p{
+				text-align: center;
+				line-height: 2rem;
+				font-weight: 300;
+			}
+		}
+	}
+}
