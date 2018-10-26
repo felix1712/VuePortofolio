@@ -8,14 +8,8 @@
 		components: {
 			ContentHeading,
 		},
-		data(){
-			return{
-				aboutMeText: '',
-			}
+		props: {
+			dataAbout: Object,
 		},
-
-		created(){
-			this.aboutMeText = "Hello I’m Felix Andrean a Front-end developer, my first journey become a developer start at 2010, is simply dummy text 									of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
-		}
 	};
 </script>
