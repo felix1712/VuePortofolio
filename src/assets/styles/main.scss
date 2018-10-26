@@ -1,13 +1,17 @@
 // global
 @import "globals/mixins.scss";
+@import "globals/fonts.scss";
+@import "globals/utilities.scss";
 @import "globals/buttons.scss";
 @import "globals/navbars.scss";
+@import "globals/customs.scss";
 
 //font
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
 //pages
 @import "pages/base-landing.scss";
+@import "pages/base-about.scss";
 
 html,body{
 	overflow-x: hidden;
