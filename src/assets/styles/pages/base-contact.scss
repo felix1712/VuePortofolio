@@ -1,0 +1,21 @@
+.base-contact{
+
+	.contact-frame{
+		display: flex;
+		margin: 0 auto;
+
+		@media ($standard-screen){
+			max-width: 1166px;
+    	width: 1206px;
+		}
+
+		@media ($fullhd-screen){
+			max-width: 1240px;
+    	width: 1280px;
+		}
+
+		.contact-item{
+			flex: 1 1 auto;
+		}
+	}
+}
