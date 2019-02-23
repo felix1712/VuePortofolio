@@ -26,6 +26,7 @@ export default {
 		...mapActions({
 			fetchDataLanding: 'landing/fetchData',
 			fetchDataAbout: 'abouts/fetchData',
+			fetchDataSkills: 'skills/fetchData',
 		}),
 	},
 
@@ -33,6 +34,7 @@ export default {
 		...mapState({
 			landingData: state => state.landing.items,
 			aboutData: state => state.abouts.items,
+			skillsData: state => state.skills.items,
 		}),
 	},
 
@@ -40,6 +42,7 @@ export default {
 		this.loading = true;
 		this.fetchDataLanding();
 		this.fetchDataAbout();
+		this.fetchDataSkills();
 	},
 };
 </script>

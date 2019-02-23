@@ -4,16 +4,13 @@ export default {
 	namespaced: true,
 	state: {
 		items: {
-			abouts: Object,
+			skills: Object,
 		},
-	},
-	getters: {
-
 	},
 
 	mutations: {
-		setAboutData(state, datas) {
-			state.items.abouts = datas.about;
+		setSkillData(state, datas) {
+			state.items.skills = datas.skills;
 		},
 	},
 
@@ -21,7 +18,7 @@ export default {
 		fetchData({ commit }) {
 			return new Promise((resolve) => {
 				data.getData((item) => {
-					commit('setAboutData', item);
+					commit('setSkillData', item);
 					resolve();
 				});
 			});
